@@ -102,7 +102,7 @@
 - (void) pop {
     CABasicAnimation *popAnimation;
     popAnimation=[CABasicAnimation animationWithKeyPath:@"transform.scale"];
-    popAnimation.duration=.1;
+    popAnimation.duration=self.pulseDuration/2.0f;
     popAnimation.repeatCount=1;
     popAnimation.autoreverses=YES;
     popAnimation.fromValue=@1.0;
