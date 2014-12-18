@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'BAPulseView', :exclusive => true do
+  pod "BAPulseView", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "BAPulseView", :path => "../"
+
+  
+end
