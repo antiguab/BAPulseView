@@ -13,7 +13,7 @@ This view and it's layer can create a pop and pulse effect.
 <br/>
 
 ## Requirements
-* Works on any iOS device, but is limited to iOS 7.0 or higher
+* Works on any iOS device
 
 <br/>
 
