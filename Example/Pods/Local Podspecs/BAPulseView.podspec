@@ -7,11 +7,11 @@ Pod::Spec.new do |s|
                        [https://github.com/antiguab/BAPulseView]()
                        DESC
   s.homepage         = "https://github.com/antiguab/BAPulseView"
-  # s.screenshots     = "", ""
+  # s.screenshots     = "https://github.com/antiguab/BAPulseView/blob/master/readme-assets/BAPulseView_ScreenShot1.png", "https://github.com/antiguab/BAPulseView/blob/master/readme-assets/BAPulseView_ScreenShot2.png"
   s.license          = 'MIT'
-  s.author           = { "Bryan Antigua" => "antigua_B@gmail.com" }
+  s.author           = { "Bryan Antigua" => "antigua.b@gmail.com" }
   s.source           = { :git => "https://github.com/antiguab/BAPulseView.git", :tag => s.version.to_s }
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes'
