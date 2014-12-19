@@ -6,8 +6,8 @@
 [![Platform](https://img.shields.io/cocoapods/p/BAPulseView.svg?style=flat)](http://cocoadocs.org/docsets/BAPulseView)
 
 ## Overview
-![example6](https://github.com/antiguab/BAFluidView/blob/master/readmeAssets/example6.gif)
-![example1](https://github.com/antiguab/BAFluidView/blob/master/readmeAssets/example1.gif)
+![cornerRadius](https://github.com/antiguab/BAPulseView/blob/master/readme-assets/BAPulseView_CornerRadius.gif)
+![cornerRadiusCircle](https://github.com/antiguab/BAPulseView/blob/master/readme-assets/BAPulseView_CornerRadiusCircle.gif)
 
 This view and it's layer can create a pop and pulse effect.
 <br/>
@@ -57,7 +57,8 @@ pulseView.center = self.view.center;
 
 This creates the following view:
 
-![]()***demo 1 insert here***
+![cornerRadius](https://github.com/antiguab/BAPulseView/blob/master/readme-assets/BAPulseView_SimpleUsage.gif)
+
 
 
 ### Advanced Usage (Properties)
@@ -71,7 +72,7 @@ pulseView.layer.cornerRadius = 20.0f;
 pulseView.pulseCornerRadius = 20.0f;
 ```
 
-***insert gif here***
+![cornerRadius](https://github.com/antiguab/BAPulseView/blob/master/readme-assets/BAPulseView_CornerRadius.gif)
 
 #### Adjust Corner Radius (Circle)
 giving a corner radius of half the width and height gives you a circle:
@@ -81,7 +82,7 @@ pulseView.layer.cornerRadius = pulseView.frame.size.width/2;
 pulseView.pulseCornerRadius = pulseView.frame.size.width/2;
 ```
 
-***insert gif here***
+![cornerRadiusCircle](https://github.com/antiguab/BAPulseView/blob/master/readme-assets/BAPulseView_CornerRadiusCircle.gif)
 
 
 #### Adjust Stroke Color 
@@ -92,7 +93,7 @@ To change the color of the pulse outline, set the **pulseStrokeColor** property:
 pulseView.pulseStrokeColor = [UIColor redColor].CGColor;
 ```
 
-***insert gif here***
+![strokeColor](https://github.com/antiguab/BAPulseView/blob/master/readme-assets/BAPulseView_StrokeColor.gif)
 
 
 #### Adjust Line Width
@@ -103,7 +104,7 @@ By editing the **pulseLineWidth** property, you can change the width of the puls
 pulseView.pulseLineWidth = 5.0f;
 ```
 
-***insert gif here***
+![lineWidth](https://github.com/antiguab/BAPulseView/blob/master/readme-assets/BAPulseView_LineWidth.gif)
 
 
 #### Adjust Pulse Radius
@@ -114,7 +115,7 @@ If you want the pulse to extend farther out, pass a float value to the **pulseRa
 pulseView.pulseRadius = 400.0f;
 ```
 
-***insert gif here***
+![radius](https://github.com/antiguab/BAPulseView/blob/master/readme-assets/BAPulseView_Radius.gif)
 
 
 #### Adjust Duration
@@ -124,6 +125,9 @@ To increase the time of a pulse, edit the **pulseDuration** property:
 ```
 pulseView.pulseDuration = 3.0f;
 ```
+
+![duration](https://github.com/antiguab/BAPulseView/blob/master/readme-assets/BAPulseView_Duration.gif)
+
 
 ### Advanced Usage (Methods)
 Listed below are examples of several method you can use to control the animation.
@@ -143,7 +147,7 @@ For the default effect, use the following method (or NSTimer if you want it to r
 //                                    repeats:YES];
 ```
 
-***insert gif here***
+![cornerRadiusCircle](https://github.com/antiguab/BAPulseView/blob/master/readme-assets/BAPulseView_CornerRadiusCircle.gif)
 
 #### Just Pop
 
@@ -160,10 +164,10 @@ For just the pop effect, use the following method (or NSTimer if you want it to 
 //                                    repeats:YES];
 ```
 
-***insert gif here***
+![pop](https://github.com/antiguab/BAPulseView/blob/master/readme-assets/BAPulseView_Pop.gif)
 
 
-#### Just Puldr
+#### Just Pulse
 
 For just the pulse effect, use the following method (or NSTimer if you want it to repeat):
 
@@ -178,7 +182,7 @@ For just the pulse effect, use the following method (or NSTimer if you want it t
 //                                    repeats:YES];
 ```
 
-***insert gif here***
+![pulse](https://github.com/antiguab/BAPulseView/blob/master/readme-assets/BAPulseView_Pulse.gif)
 
 
 ## Author
