@@ -185,6 +185,8 @@ For just the pulse effect, use the following method (or NSTimer if you want it t
 ![pulse](https://github.com/antiguab/BAPulseView/blob/master/readme-assets/BAPulseView_Pulse.gif)
 
 
+
+
 ## Author
 
 Bryan Antigua, antigua.B@gmail.com
