@@ -194,7 +194,7 @@ Bryan Antigua, antigua.B@gmail.com
 
 ## License
 
-BAFluidView is available under the MIT license. See the LICENSE file for more info.
+BAPulseView is available under the MIT license. See the LICENSE file for more info.
 
 
 
